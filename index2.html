@@ -1,0 +1,170 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta http-equiv="Content-Type" content="text/html; charset=UTF-8"/>
+  <meta name="viewport" content="width=device-width, initial-scale=1"/>
+  <title>Liz Myers: VUI | UX Designer</title>
+
+  <!-- FONTS  -->
+  <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+
+  <!-- Materialize  -->
+  <link href="assets/css/materialize.css" type="text/css" rel="stylesheet" media="screen,projection"/>
+
+  <!-- Merriweather -->
+  <link href="https://fonts.googleapis.com/css?family=Merriweather:300,400,700,900" rel="stylesheet">
+
+  <!-- Rubik  -->
+  <link href="https://fonts.googleapis.com/css?family=Rubik:300,400,500,700,900" rel="stylesheet">
+
+  <!-- ScrollTop Button: https://github.com/bartholomej/material-scrollTop  -->
+  <link rel="stylesheet" href="assets/css/material-scrolltop.css">
+
+  <!-- Font-Awesome Icons (b/c material is missing icon i need)  -->
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.2.0/css/all.css" integrity="sha384-hWVjflwFxL6sNzntih27bfxkr27PmbbK/iSvJ+a4+0owXq79v+lsFkW54bOGbiDQ" crossorigin="anonymous">
+
+  <!-- Flickity Carousel -->
+  <link rel="stylesheet" href="assets/css/flickity.css" media="screen">
+
+  <!-- Custom CSS -->
+  <link href="assets/css/style.css" type="text/css" rel="stylesheet" media="screen,projection"/>
+
+</head>
+
+<body>
+
+   <div class="navbar-fixed">
+    <nav class="#a5d6a7 indigo accent-2" role="navigation" id="myNavbar">
+      <div class="nav-wrapper container">
+        <a id="logo-container" href="index.html" class="brand-logo"><span class="liz">Liz</span>myers</a>
+        <ul class="right hide-on-med-and-down">
+          <li><a href="index.html" class="nav-text align-center">ABOUT</a></li>
+          <li> <strong>|</stong> </li>
+          <li><a href="work.html" class="nav-text align-center">WORK</a>  </li>
+          <li> <strong>|</stong> </li>
+          <li><a href="play.html" class="nav-text align-center">PLAY</a></li>
+        </ul>
+
+        <ul id="nav-mobile" class="sidenav">
+          <li><a href="index.html">ABOUT</a></li>
+          <li><a href="work.html">WORK</a></li>
+          <li><a href="play.html">PLAY</a></li>
+        </ul>
+        <a href="#" data-target="nav-mobile" class="sidenav-trigger"><i class="material-icons">menu</i></a>
+      </div>
+    </nav>
+  </div><!--//nav -->
+
+  <section>
+    <div class="row">
+      <div class="container">
+
+      <!-- About Liz - Carousel -->
+      <div class="carousel" data-flickity='{ "autoPlay": true }'>
+        <div class="carousel-cell" id="carousel-1"></div>
+        <div class="carousel-cell" id="carousel-2"></div>
+        <div class="carousel-cell" id="carousel-3"></div>
+      </div>
+
+    </div> <!--//end container-->
+  </div><!--end row 1-->
+  </section>
+  <section>
+      <div class="row">
+        <div class="container">
+          <p><h2 class="title-play">About Liz</h2></p>
+
+            <div class="col s12 m6 flow-text">
+                  <p class="about-liz">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque non sodales tellus. Nam ipsum lectus, convallis vitae mollis ac, aliquam vitae tortor. Nam eu viverra orci. Fusce vulputate, turpis ut pellentesque iaculis, libero sem fringilla nibh, a efficitur lectus erat at ligula. Donec diam ipsum, ullamcorper vel risus ut, hendrerit scelerisque magna. Duis ut interdum ligula. Nullam et suscipit augue.</p>
+            </div><!--//end col 1-->
+            <div class="col s12 m6 flow-text">
+                  <p class="about-liz">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque non sodales tellus. Nam ipsum lectus, convallis vitae mollis ac, aliquam vitae tortor. Nam eu viverra orci. Fusce vulputate, turpis ut pellentesque iaculis, libero sem fringilla nibh, a efficitur lectus erat at ligula. Donec diam ipsum, ullamcorper vel risus ut, hendrerit scelerisque magna. Duis ut interdum ligula. Nullam et suscipit augue.</p>
+
+            </div><!--//end col 2-->
+        </div> <!--//end container-->
+      </div><!--end row 1-->
+  <section>
+  <footer class="page-footer indigo lighten-1 s12 l12">
+    <div class="indigo-divide indigo accent-2">&nbsp;</div>
+      <div class="container">
+          <div id="contact">
+            <ul class="left">
+                <!--call-->
+                <a href="tel:0012064744381" alt="Give me a ring"> <li><button class="contact-icons waves-effect" type="button">
+                <i <i class="fas fa-mobile-alt"></i></button></li></a>
+                <!--gmail-->
+                <a href="mailto:elizmyers@gmail.com" alt="Send me mail"><li><button class="contact-icons waves-effect" type="button">
+                <i <i class="far fa-envelope-open"></i></button></li></a>
+                <!--linkedin-->
+                <a href="https://www.linkedin.com/in/lizmyers" alt="Lets connect" target="_blank"><li>
+                  <button class="contact-icons waves-effect" type="button">
+                <i <i class="fab fa-linkedin-in"></i></button></li></a>
+            </ul>
+          </div><!--//end contact-->
+
+        <div class="right" id="copy">
+          &copy Copyright Myers Design 2018
+        </div><!--//end copyright-->
+      </div><!--end container-->
+  </footer>
+
+  <!--  Scripts-->
+  <script src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
+  <script src="assets/js/materialize.js"></script>
+  <script src="assets/js/init.js"></script>
+  <script src="assets/js/flickity.pkgd.min.js"></script>
+
+  <!-- material-scrolltop button -->
+  <button class="material-scrolltop indigo accent-1" type="button"></button>
+
+  <!-- material-scrolltop plugin -->
+  <script src="assets/js/material-scrolltop.js"></script>
+
+  <!-- Initialize material-scrolltop with (minimal) -->
+  <script>
+      $('body').materialScrollTop();
+  </script>
+  <script>
+    $('.carousel').flickity({
+      // options
+      cellAlign: 'left',
+      contain: true,
+      freeScroll: true,
+      pageDots: true,
+      wrapAround: false,
+      buttons: false,
+      autoPlay: true
+    });
+</script>
+<script>
+var $carousel = $('.carousel').flickity({
+  autoPlay: true,
+});
+
+var flkty = $carousel.data('flickity');
+var autoplayCount = 0;
+
+$carousel.on( 'select.flickity', onSelect );
+
+function onSelect() {
+  if ( flkty.player.state != 'playing' ) {
+    disableAutoplay()
+    return;
+  }
+  // stop after 2 advances
+  autoplayCount++;
+  if ( autoplayCount >= 6 ) {
+    disableAutoplay();
+  }
+}
+
+function disableAutoplay() {
+  $carousel.flickity('stopPlayer');
+  $carousel.off( 'select.flickity', onSelect );
+}
+</script>
+
+<script>document.write('<script src="http://' + (location.host || 'localhost').split(':')[0] + ':35729/livereload.js?snipver=1"></' + 'script>')</script>
+
+  </body>
+</html>
